@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/public/img/kellen-riggin-eu59S4lGYOs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background-color: transparent !important;
+    padding: 10px 60px;
+}
+
+.navbar-brand {
+    color: #ff7200 !important;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 80px;
+}
+
+#ulmargin {
+    margin-left: 20px;
+    gap: 40px;
+}
+
+#ulmargin .nav-link {
+    color: white !important;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#ulmargin .nav-link:hover {
+    color: #ff7200 !important;
+}
+
+
+/* SEARCH */
+
+.navbar form {
+    margin-left: auto;
+}
+
+.navbar form input {
+    width: 185px;
+    height: 38px;
+    background-color: transparent;
+    border: 1px solid #ff7200;
+    color: white;
+    border-radius: 5px 0 0 5px;
+    box-shadow: none !important;
+}
+
+.navbar form input::placeholder {
+    color: white;
+}
+
+.navbar form button {
+    width: 95px;
+    height: 38px;
+    background-color: #ff7200;
+    color: white;
+    border: 1px solid #ff7200;
+    border-radius: 0 5px 5px 0;
+}
+
+.navbar form button:hover {
+    background-color: #e56600;
+    color: white;
+    border-color: #e56600;
+}
+
+
+/* MAIN */
+
+#divparent {
+    min-height: 550px;
+    width: 100%;
+    display: flex;
+}
+
+
+/* LEFT SIDE */
+
+#childone {
+    height: 500px;
+    width: 55%;
+    margin-left: 65px;
+    margin-top: 90px;
+}
+
+#childone h1 {
+    margin: 0;
+    color: white;
+    font-size: 48px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: bold;
+    line-height: 1.25;
+}
+
+#childone #development {
+    color: #ff7200;
+}
+
+#childone p {
+    width: 570px;
+    color: white;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-top: 10px;
+}
+
+#joinus {
+    width: 148px;
+    height: 40px;
+    margin-top: 12px;
+    background-color: #ff7200;
+    color: #111;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#joinus:hover {
+    background-color: #e56600;
+    color: white;
+}
+
+
+/* RIGHT SIDE */
+
+#childtwo {
+    height: 500px;
+    width: 45%;
+}
+
+#smallchild {
+    height: 395px;
+    width: 280px;
+    margin-top: 60px;
+    margin-left: 80px;
+    padding-top: 1px;
+    background-color: rgba(0, 0, 0, 0.80);
+    border-radius: 8px;
+}
+
+
+/* LOGIN HEADING */
+
+#navheading {
+    height: 40px;
+    width: 220px;
+    margin-left: 30px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #e56600;
+}
+
+
+/* INPUT */
+
+#email,
+#password {
+    width: 220px;
+    margin-left: 30px;
+    margin-top: 25px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+
+#email::placeholder,
+#password::placeholder {
+    color: white;
+}
+
+
+/* LINES */
+
+#smallchild hr {
+    width: 220px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border: 0;
+    border-top: 1px solid #ff7200;
+    opacity: 1;
+}
+
+
+/* LOGIN BUTTON */
+
+#loginbtn {
+    width: 220px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: #ff7200;
+    color: #111;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* ACCOUNT */
+
+#account {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+#signup {
+    color: #ff7200;
+    text-align: center;
+    margin-top: 0;
+}
+
+#loginwith {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+
+/* SOCIAL ICONS */
+
+#socialicons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#socialicons span {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ 

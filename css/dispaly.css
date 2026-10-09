@@ -1,0 +1,48 @@
+#one {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid black;
+    color: aliceblue;
+display: block; 
+     display: inline; 
+    display: inline-block;
+
+
+} 
+
+ #two {
+    height: 200px;
+    width: 200px;
+    background-color: darkgoldenrod;
+    border: 2px solid black;
+
+    color: aliceblue; 
+ display: block;
+    display: inline; 
+     display: inline-block; 
+     justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: center;
+    justify-content: end;
+    justify-content: top; 
+    align-items: center;
+    align-items: end;
+    align-items: top; 
+
+
+
+}
+
+#three {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(51, 24, 70);
+    border: 2px solid black;
+
+    color: aliceblue;
+     display: block; 
+    display: inline; 
+     display: inline-block;
+}  

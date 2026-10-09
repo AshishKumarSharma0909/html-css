@@ -1,0 +1,153 @@
+Answers
+1. what is Semantic aur Non-Semantic HTML elements = 
+
+Semantic elements => woh HTML elements hote hain jo apne content ka meaning clearly describe(matlab jinke naame se hi pta lag jaye ki iska kaam kya hoga ) karte hain.
+exp.- footer
+Non-semantic elements => content ka specific meaning describe nahi karte. Ye mainly generic containers ke liye use hote hain.
+exp. - div
+
+//===================================================================================
+2.localStorage
+
+A.  isme data brower me rahta hai Browser close karne ke baad bhi data normally rehta hai.
+Jab tak manually clear na kiya jaye, data persist kar sakta hai.
+
+ sessionStorage
+B. Data current browser tab/session ke liye tak rahta hai or tab close hone par remove ho jata hai 
+
+C. Cookies small pieces of data hota hai HTTP requests ke saath server ko bheje ja sakte hain.
+
+
+//============================================================================================
+3. CSS Box Model batata hai ki browser kisi HTML element ke size aur surrounding space ko kaise calculate karta hai. jese konsa block element hai or konsa inline
+
+A. Content
+iske passActual information hoti hai 
+(jese hame heading likhni hai toh ham h1 ka use lete hai exp- <h1>hello</h1>)
+
+B. Padding
+Content aur border ke beech ka space dene ke liye use karte hai or ye 19-20 hosakti hai 
+
+C. 3. Border
+kisi bhi box ke charo taraf boundary deni ho toh border ka use lete hai 
+exp.-  boder 5px solid black;
+
+D.  Margin
+
+Element ke bahar ka space.or ye kabhi bhi 19-20 nhi ho sakta fix hota hai ki aapkha se kitna margin de rahe ho
+
+//=============================================================================================
+5.
+A. 
+static
+
+Default positioning.
+
+.box {
+    position: static;
+}
+
+Normal document flow mein rehta hai.
+---------------------------------------------------------------------------------
+B. 
+relative
+
+Element apni normal position ke relative move ho sakta hai.
+
+.box {
+    position: relative;
+    top: 20px;
+}
+
+Important: Iski original space layout mein generally maintained rehti hai.
+--------------------------------------------------------------------------------------------------
+C.
+absolute
+
+Element normal document flow se remove ho jata hai aur positioned ancestor ke according position hota hai.
+
+.box {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+Use: Dropdown, badge, icon overlay etc.
+----------------------------------------------------------------------------------------------------------
+D.fixed
+
+Element viewport ke according fixed rehta hai.
+
+.navbar {
+    position: fixed;
+    top: 0;
+}
+
+Page scroll karne par bhi viewport ke same location par reh sakta hai.
+
+
+--------------------------------------------------------------------------------------------------------
+E. 
+sticky
+
+Element initially normal flow mein rehta hai, lekin scrolling ke particular point par sticky behave kar sakta hai.
+
+.header {
+    position: sticky;
+    top: 0;
+}
+
+======================================================================================
+6.
+
+
+SR.	          VARIABLE NAME 	Redeclare  	Reassign
+1           	VAR	             YES	            YES
+2	            LET               NO	             YES
+3	            CONST	            NO	                NO
+
+
+1 . VAR= var  redeclaration or assignment donon Ho jaate Hain
+var a=10
+a. var a=20;
+{
+    console.log(a)
+} // REDECLATION
+
+var a =10
+a=20;   
+
+{
+    console.log(a)
+}// REASSIGNMENT
+
+2. LET Let Yah only  reassignment hota Hai
+let age = 21;
+age = 22;
+{
+    console.log(age) 
+}
+3.CONST Const Yah donon hi nahin hota
+const age = 21;
+
+================================================================================================
+7. 
+A . (==)
+ye only value dekhta hai ki value same hai ya nhi 
+let a= 5
+let b = "5"
+{
+    console.log(a==b)     // true
+}
+
+B . (===)
+ye value ke sath sath data-types ko bhi check karta hai 
+
+let a= 5
+let b = "5"
+{
+    console.log(a==b)     // false
+}
+
+ 
+

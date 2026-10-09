@@ -1,0 +1,30 @@
+.container {
+    background: linear-gradient(to right , grey , rgb(32, 32, 79));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    padding: 10px;
+    row-gap: 10px;
+}
+ 
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+}
+ 
+ 
+ 
+/* .random{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid goldenrod;
+}  */

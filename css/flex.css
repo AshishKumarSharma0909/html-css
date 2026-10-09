@@ -1,0 +1,80 @@
+body{
+    background-image: url(/public/img/netflix.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+ 
+
+#parent{
+    height: 500px;
+    width: 90%;
+    background:linear-gradient(to right, blue, orange);
+    border: 4px solid orangered;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#one {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid black;
+    color: aliceblue;
+    border: 2px solid white;
+    /* display: block; */
+    /* display: inline; */
+    /* display: inline-block; */
+    display: flex;
+     justify-content: center;
+     align-items: center;
+
+
+}
+
+#two {
+    height: 200px;
+    width: 200px;
+    background-color: darkgoldenrod;
+    border: 2px solid black;
+ border: 2px solid white;
+    color: aliceblue;
+    /* display: block; */
+    /* display: inline; */
+    /* display: inline-block; */
+    /* justify-content: space-around;
+   /* justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: center;
+    justify-content: end;
+    justify-content: top; */
+    /* align-items: center;
+    align-items: end;
+    align-items: top; */
+display: flex;
+     justify-content: center;
+     align-items: center;
+
+
+}
+
+#three {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(51, 24, 70);
+    border: 2px solid black;
+ border: 2px solid white;
+    color: aliceblue;
+    /* display: block; */
+    /* display: inline; */
+    /* display: inline-block; */
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}

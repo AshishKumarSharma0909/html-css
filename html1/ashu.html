@@ -1,0 +1,68 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Change Tag</title>
+</head>
+<body>
+
+    <h1 id="heading">Hello Ashu</h1>
+
+    <button id="changeBtn">Change</button>
+
+    <script>
+        const heading = document.getElementById("heading");
+        const button = document.getElementById("changeBtn");
+
+        button.addEventListener("click", function () {
+            const paragraph = document.createElement("p");
+
+            paragraph.textContent = heading.textContent;
+
+            heading.replaceWith(paragraph);
+        });
+    </script>
+
+</body> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counter App</title>
+</head>
+<body>
+
+    <h1 id="counter">0</h1>
+
+    <button id="increment">Increment</button>
+    <button id="decrement">Decrement</button>
+    <button id="reset">Reset</button>
+
+    <script>
+
+        let count = 0;
+
+        const counter = document.getElementById("counter");
+
+        const incrementBtn = document.getElementById("increment");
+        const decrementBtn = document.getElementById("decrement");
+        const resetBtn = document.getElementById("reset");
+
+        incrementBtn.addEventListener("click", function () {
+            count++;
+            counter.textContent = count;
+        });
+
+        decrementBtn.addEventListener("click", function () {
+            count--;
+            counter.textContent = count;
+        });
+
+        resetBtn.addEventListener("click", function () {
+            count = 0;
+            counter.textContent = count;
+        });
+
+    </script>
+
+</body>
+</html>

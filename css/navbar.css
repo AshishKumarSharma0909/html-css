@@ -1,0 +1,164 @@
+body{
+    background-image: url(/public/img/netflix\ off..jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#navparent{
+    height: 50px;
+    width: 100%;
+    background:linear-gradient(to right , #0F172A);
+    padding-top: 15px;
+    box-shadow: 10px,15px, 20px , red; 
+    
+}
+#logo{
+    color: rgb(199, 18, 18);
+    text-decoration: none;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 110px;
+}
+a:hover{
+    color: 	#FF6B00;
+}
+#search{
+    height: 40px;
+    width: 220px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 2px solid #FF6B00;
+    
+}
+::placeholder{
+    padding-left: 10px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    background: #FF6B00;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 10px;
+    color:#FFFFFF
+
+}
+button:hover{
+    color: black;
+}
+#netflixdiv{
+
+    height: 355px;
+    width: 320px;
+    background-color: black;
+    padding-top: 33px;
+    margin-left: 485px;
+    margin-top: 65px;
+    border-radius: 5px;
+
+}
+#netheading{
+
+    color: white;
+    font-size: 25px;
+    margin-left: 38px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 520px;
+
+}
+#inputone{
+   
+      margin-top: 17px;
+      height: 40px;
+      width: 233px;
+      margin-left: 38px;
+      background-color: rgb(55, 54, 54);
+      border: 1px solid rgb(55, 54, 54);
+      border-radius: 4px;
+
+}
+::placeholder{
+
+    padding-left: 13px;
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#netflixbuttan{
+
+    margin-top: 33px;
+    height: 40px;
+    width: 233px;
+    margin-left: 38px;
+    background-color: rgb(242,9 , 9);
+    border: 1px solid rgb(242,9 , 9);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 4px;
+
+}
+#checkbox{
+
+    margin-left: 38px;
+    margin-bottom: 28px;
+
+}
+#remember{
+
+    color: rgb(130, 133, 135);
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+
+}
+#needhelp{
+
+    color: rgb(130, 133, 135);
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    margin-left: 62px;
+
+}
+#newto{
+
+color: rgb(130, 133, 135);
+margin-left: 38px;
+font-size: 13px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+#Signup{
+   color: rgb(216, 209, 209);
+   font-size: 13px;
+   font-family: Arial, Helvetica, sans-serif; 
+}
+#google{
+    color: rgb(130, 133, 135);
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 38px;
+}
+#ensure{
+    color: rgb(130, 133, 135);
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 38px;
+}
+#Learn{
+    text-decoration: none;
+    color: rgb(0, 98, 255);
+    margin-left: 10px;
+
+}
+
